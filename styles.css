@@ -12,6 +12,16 @@ body {
     }
 }
 
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 600px; /* largura máxima do contêiner */
+    margin: 0 auto; /* centraliza o contêiner horizontalmente */
+    border-radius: 10px; /* bordas arredondadas */
+    border: 2px solid #000000; /* borda preta com espessura de 2px */
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1); /* sombra mais pronunciada */
+    padding: 20px; /* espaço interno */
+}
+
 /* Estilo para o conteúdo do cabeçalho */
 #header-content {
     position: relative;
@@ -31,6 +41,7 @@ body {
     width: 150px; /* aumenta o tamanho da imagem */
     height: 150px; /* aumenta o tamanho da imagem */
     object-fit: cover; /* mantém a proporção da imagem */
+    margin-top: 20px; /* move a imagem para baixo em relação ao topo do quadrado */
 }
 
 /* Estilo para o título */
@@ -62,6 +73,76 @@ footer {
 /* Estilo para o contêiner do rodapé */
 .footer-content {
     display: inline-block; /* faz com que o contêiner se ajuste ao conteúdo interno */
+}
+
+/* Estilo para a seção de contato */
+#contato {
+    text-align: center; /* centraliza o conteúdo */
+    margin-top: 20px; /* espaço entre a seção anterior e esta */
+}
+
+/* Estilo para os botões de contato */
+.contact-buttons {
+    margin-top: 10px; /* espaço entre os botões */
+}
+
+/* Estilo para os botões de contato */
+.contact-buttons a {
+    display: inline-block;
+    padding: 10px 15px; /* ajustando o padding */
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 10px; /* tornando os botões um pouco menos redondos */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-buttons a.whatsapp {
+    background-color: #25d366; /* verde */
+    color: #ffffff;
+}
+
+.contact-buttons a.instagram {
+    background: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); /* rosa com amarelo (cores do Instagram) */
+    color: #ffffff;
+}
+
+.contact-buttons a.github {
+    background-color: #000000; /* preto */
+    color: #ffffff;
+}
+
+.contact-buttons a.linkedin {
+    background-color: #0077b5; /* azul */
+    color: #ffffff;
+}
+
+.contact-buttons a.gmail {
+    background-color: #db4437; /* vermelho */
+    color: #ffffff;
+    margin-right: 0; /* removendo a margem direita */
+}
+
+/* Estilo para os botões dos projetos */
+.project-buttons {
+    text-align: center; /* centraliza os botões */
+    margin-top: 20px; /* espaço entre a seção anterior e os botões */
+}
+
+.project-link {
+    display: inline-block;
+    padding: 8px 16px; /* ajustando o padding */
+    background-color: #f2f2f2; /* cor de fundo cinza */
+    color: #333333; /* cor do texto preto */
+    text-decoration: none;
+    border-radius: 8px; /* bordas arredondadas */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px; /* espaço entre os botões */
+}
+
+.project-link:hover {
+    background-color: #d9d9d9; /* cor de fundo cinza mais escura ao passar o mouse */
 }
 
 
