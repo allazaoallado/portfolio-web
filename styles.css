@@ -1,0 +1,67 @@
+/* Estilo para o corpo */
+body {
+    /* Define a cor de fundo padrão para o tema claro */
+    background-color: #ffffff; /* branco */
+    color: #000000; /* preto para o texto */
+
+    /* Verifica se o modo de tema preferido do sistema é escuro */
+    @media (prefers-color-scheme: dark) {
+        /* Se sim, altera a cor de fundo e a cor do texto para o tema escuro */
+        background-color: #333333; /* cinza escuro ou outra cor escura de sua escolha */
+        color: #ffffff; /* branco para o texto */
+    }
+}
+
+/* Estilo para o conteúdo do cabeçalho */
+#header-content {
+    position: relative;
+    text-align: center; /* centraliza o conteúdo */
+    max-width: 600px; /* largura máxima do contêiner */
+    margin: 0 auto; /* centraliza o contêiner horizontalmente */
+}
+
+/* Estilo para o contêiner de informações do cabeçalho */
+.header-info {
+    display: inline-block; /* faz com que o contêiner se ajuste ao conteúdo interno */
+}
+
+/* Estilo para a imagem */
+.header-info img {
+    border-radius: 50%; /* torna a imagem redonda */
+    width: 150px; /* aumenta o tamanho da imagem */
+    height: 150px; /* aumenta o tamanho da imagem */
+    object-fit: cover; /* mantém a proporção da imagem */
+}
+
+/* Estilo para o título */
+.header-info h1 {
+    color: #ffffff; /* cor do texto */
+    margin-top: 10px; /* espaço entre a imagem e o título */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    text-align: center; /* centraliza o conteúdo */
+    max-width: 600px; /* largura máxima do contêiner */
+    margin: 0 auto; /* centraliza o contêiner horizontalmente */
+}
+
+/* Estilo para o contêiner de conteúdo principal */
+.main-content {
+    display: inline-block; /* faz com que o contêiner se ajuste ao conteúdo interno */
+    text-align: left; /* alinha o texto à esquerda */
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center; /* centraliza o conteúdo */
+    max-width: 600px; /* largura máxima do contêiner */
+    margin: 0 auto; /* centraliza o contêiner horizontalmente */
+}
+
+/* Estilo para o contêiner do rodapé */
+.footer-content {
+    display: inline-block; /* faz com que o contêiner se ajuste ao conteúdo interno */
+}
+
+
