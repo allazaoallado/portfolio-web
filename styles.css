@@ -89,12 +89,18 @@ footer {
 /* Estilo para os botões de contato */
 .contact-buttons a {
     display: inline-block;
-    padding: 10px 15px; /* ajustando o padding */
-    margin-right: 10px;
+    padding: 10px 15px; /* Ajustando o padding */
+    margin: 5px; /* Adicionando margem entre os botões */
     text-decoration: none;
-    border-radius: 10px; /* tornando os botões um pouco menos redondos */
+    border-radius: 10px; /* Tornando os botões um pouco menos redondos */
     font-weight: bold;
     text-transform: uppercase;
+    transition: opacity 0.3s; /* Suaviza a transição da opacidade */
+    opacity: 1; /* Opacidade inicial */
+}
+
+.contact-buttons a:hover {
+    opacity: 0.8; /* Reduz a opacidade ao passar o mouse */
 }
 
 .contact-buttons a.whatsapp {
@@ -123,26 +129,26 @@ footer {
     margin-right: 0; /* removendo a margem direita */
 }
 
-/* Estilo para os botões dos projetos */
-.project-buttons {
-    text-align: center; /* centraliza os botões */
-    margin-top: 20px; /* espaço entre a seção anterior e os botões */
+/* Estilo para a seção de projetos */
+#projetos {
+    margin-top: 20px; /* espaço entre a seção anterior e os projetos */
+    text-align: center; /* centraliza o conteúdo */
 }
 
+/* Estilo para cada projeto */
 .project-link {
-    display: inline-block;
+    display: inline-block; /* faz com que os projetos sejam exibidos em linha */
     padding: 8px 16px; /* ajustando o padding */
-    background-color: #f2f2f2; /* cor de fundo cinza */
-    color: #333333; /* cor do texto preto */
+    color: #ffffff; /* cor do texto preto */
     text-decoration: none;
     border-radius: 8px; /* bordas arredondadas */
     font-weight: bold;
     text-transform: uppercase;
-    margin: 5px; /* espaço entre os botões */
+    margin: 5px; /* espaço entre os projetos */
+    transition: background-color 0.3s; /* suaviza a transição de cor de fundo */
 }
 
+/* Estilo para mudar o fundo do projeto ao passar o mouse */
 .project-link:hover {
-    background-color: #d9d9d9; /* cor de fundo cinza mais escura ao passar o mouse */
+    background-color: #141212; /* cor de fundo mais clara ao passar o mouse */
 }
-
-
